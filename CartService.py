@@ -118,7 +118,7 @@ def remove_product_from_cart(user_id, product_id):
             return jsonify({"message": "Removed all of product from cart", "product": {"id": removedProduct.id, "name": removedProduct.name, "price": removedProduct.price, "quantity removed": quantityRemoved}}), 201
     
 if __name__ == '__main__':
-    app.run(debug=True,port=5001)
+    app.run(debug=True,host='0.0.0.0')
 
 with app.app_context():
     print("Creating database...")
