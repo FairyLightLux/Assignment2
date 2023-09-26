@@ -2,7 +2,7 @@ Flask==2.2.5
 Flask_Bootstrap==3.3.7.1
 Flask_HTTPAuth==4.8.0
 Flask_Moment==1.0.5
-Flask-SQLAlchemy==3.1.1
+Flask-SQLAlchemy==3.0.5
 SQLAlchemy==2.0.21
 Flask_WTF==1.1.1
 pytest==7.1.3
