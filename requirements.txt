@@ -1,4 +1,4 @@
-Flask==2.3.0
+Flask
 Flask_Bootstrap==3.3.7.1
 Flask_HTTPAuth==4.8.0
 Flask_Moment==1.0.5
